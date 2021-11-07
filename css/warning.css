@@ -1,0 +1,43 @@
+.theboxofwarning{
+    width: 100%;
+    height: 100vh;
+    background-color:#000000a4;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+}
+
+.warningbox{
+    background-color: white;
+    padding: 40px;
+    margin: 100px 200px;
+    border-radius: 40px;
+}
+
+#report,
+#safe{
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    color: white;
+}
+
+#report{
+    background-color:red;
+}
+
+#safe{
+    background-color: green;
+}
+
+#report:hover,
+#safe:hover{
+    transform: scale(0.9);
+}
